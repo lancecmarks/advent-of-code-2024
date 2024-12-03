@@ -12,8 +12,6 @@ pub fn solve1(session_cookie: &str) {
             println!("Column 2 (sorted): {:?}", column2);
             println!("Absolute Differences: {:?}", differences);
             println!("Sum of Differences: {}", sum_of_differences);
-
-            // Additional logic for part 1
         }
         Err(err) => eprintln!("Error fetching input for Day 01 - Part 1: {}", err),
     }
@@ -29,8 +27,6 @@ pub fn solve2(session_cookie: &str) {
             println!("Column 2 (sorted): {:?}", column2);
             println!("Similarity Scores: {:?}", similarity_scores);
             println!("Sum of Differences: {}", sum_of_scores);
-
-            // Additional logic for part 1
         }
         Err(err) => eprintln!("Error fetching input for Day 01 - Part 2: {}", err),
     }
