@@ -4,7 +4,7 @@ use std::collections::HashMap;
 
 pub fn solve1(session_cookie: &str) {
     let url = "https://adventofcode.com/2024/day/1/input";
-    match crate::util::get_input(url, session_cookie) {
+    match util::get_input(url, session_cookie) {
         Ok(input) => {
             let (column1, column2, differences, sum_of_differences) = process_input_1(&input);
 

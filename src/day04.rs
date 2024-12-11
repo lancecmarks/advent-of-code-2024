@@ -10,7 +10,7 @@ pub fn solve1(session_cookie: &str) {
         
             println!("Annotated grid:\n{}", result.0);
         }
-        Err(err) => eprintln!("Error fetching input for Day 01 - Part 1: {}", err),
+        Err(err) => eprintln!("Error fetching input for Day 04 - Part 1: {}", err),
     }
 }
 
@@ -23,7 +23,7 @@ pub fn solve2(session_cookie: &str) {
         
             println!("Annotated grid:\n{}", result.0);
         }
-        Err(err) => eprintln!("Error fetching input for Day 01 - Part 1: {}", err),
+        Err(err) => eprintln!("Error fetching input for Day 04 - Part 2: {}", err),
     }
 }
 
